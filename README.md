@@ -16,6 +16,12 @@ $ terraform plan
 $ terraform apply
 ```
 
+## Get Kubernetes Cluster
+
+```
+$ gcloud container clusters get-credentials demo-cluster --zone europe-west4 --project ilkerispir
+```
+
 ## Launch Demo Application
 
 First, you will need to authenticate to the cluster, then you can run the following:
